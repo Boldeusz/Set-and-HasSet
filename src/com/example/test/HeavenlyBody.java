@@ -26,6 +26,6 @@ public final class HeavenlyBody {
     }
 
     public Set<HeavenlyBody> getSatellites() {
-        return satellites;
+        return new HashSet<>(this.satellites);
     }
 }
